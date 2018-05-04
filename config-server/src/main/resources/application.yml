@@ -7,4 +7,4 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/heySeattleW/cloud-demo/tree/master/config-server/src/main/java/com/hey/config
