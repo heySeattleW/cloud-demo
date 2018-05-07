@@ -7,4 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/heySeattleW/cloud-demo/tree/master/config-server/src/main/java/com/hey/config
+          uri: https://github.com/heySeattleW/cloud-demo.git
+          search-paths: /config-server/src/main/java/com/hey/config
+          username: 354034910@qq.com
+          password: l1141180
