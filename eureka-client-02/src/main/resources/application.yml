@@ -7,3 +7,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:1001/eureka/
+  instance:
+    health-check-url:
