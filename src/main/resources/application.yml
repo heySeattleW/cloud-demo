@@ -13,3 +13,4 @@ eureka:
       defaultZone: http://localhost:1001/eureka/
   server:
     enable-self-preservation: false
+    eviction-interval-timer-in-ms: 6000

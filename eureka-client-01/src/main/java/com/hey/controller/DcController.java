@@ -5,6 +5,8 @@ import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Map;
+
 @RestController
 public class DcController {
 
@@ -12,10 +14,10 @@ public class DcController {
     DiscoveryClient discoveryClient;
 
     @GetMapping("/dc")
-    public String dc()throws Exception{
-        String services = "Services: " + discoveryClient.getServices();
-        System.out.println(services);
-        return services;
+    public Map dc()throws Exception{
+        String services = "Services: " + discoveryClient.getServices()+"+++++01";
+        System.out.println(services+"+++++01");
+        return null;
     }
 
 }
